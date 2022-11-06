@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewellery Palace: Online Jewellery Shopping Store</title>
+
+    <!-- StyleSheet Used -->
+    <link rel="stylesheet" href="/eCommerce/css/style.css" />
+    <link rel="stylesheet" href="/eCommerce/css/utilities.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <a href="#" id="brand-name">
+            <h1>Jewellery Palace</h1>
+        </a>
+
+        <div class="container">
+            <ul id="navbar">
+                <li><a href="/eCommerce/index.html" id="">Home</a></li>
+                <li><a href="/eCommerce/shop.html" id="" class="active">Shop</a></li>
+                <li><a href="/eCommerce/blog.html" id="">Blog</a></li>
+                <li><a href="/eCommerce/About.html" id="">About Us</a></li>
+                <li><a href="/eCommerce/contact.html" id="">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" id=""><img src="/eCommerce/img/shopping-cart.png" alt="" id="cart" /><i
+                            class="fa-light fa-bag-shopping"></i></a>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <img src="/eCommerce/img/user.png" alt="" id="user">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Page -->
+    <section class="page-header">
+    </section>
+
+    <!-- Product Search Section-->
+    <section class="search-section">
+        <form>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" id="search-item" placeholder="Search Products" onkeyup="search()">
+        </form>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="product-list section-p1">
+        <h2>New - Arrivals</h2>
+        <div class="pro-container" id="product-list">
+        </div>
+    </section>
+
+    <!-- Pagination-->
+    <section class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa fa-arrow-right"></i></a>
+
+    </section>
+
+    <!-- Newsletter  -->
+    <section id="news-letter">
+        <div class="container">
+            <div class="info">
+                <h4>Sign Up for Newsletter</h4>
+                <p>Get E-main update about our latest shop and <span>special offers</span>
+                </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter Your Email Address" id="">
+                <button>Sign Up</button>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="col">
+            <a href="#" id="brand-name">
+                <h1>Jewellery Palace</h1>
+            </a>
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 420 Gokuldham Society Powder Gali Andheri Wset Mumbai - 4400023</p>
+            <p><strong>Phone: </strong> +91 - 6969696969</p>
+            <p><strong>Visit: </strong> 10:00 AM - 8:00 PM Mon - Sat</p>
+            <p><strong>Email: </strong> info@jewellery.com</p>
+
+            <div class="follow">
+                <h4>Connect with us </h4>
+                <div class="icon">
+                    <a href="#"><img src="/eCommerce/img/icon/facebook.png" alt=""></a>
+                    <a href="#"><img src="/eCommerce/img/icon/instagram.png" alt=""></a>
+                    <a href="#"><img src="/eCommerce/img/icon/youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Status</a>
+            <a href="#">Return and Refund Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">My Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">My Orders</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>from App Store or Google Play Store</p>
+            <div class="row">
+                <a href="#"><img src="/eCommerce/img/icon/app-store.png" alt=""></a>
+                <a href="#"><img src="/eCommerce/img/icon/play-store.png" alt=""></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <a href="#" id="payment"><img src="/eCommerce/img/icon/payment.png" alt=""></a>
+        </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p>&#169 Copyright and All Right Reserved</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const search = () => {
+            const searchBox = document.getElementById("search-item").value.toUpperCase();
+            const storeItems = document.getElementById("product-list")
+            const product = document.querySelectorAll(".pro")
+            const productName = storeItems.getElementsByTagName("h5")
+
+            for (var i = 0; i < productName.length; i++) {
+                let match = product[i].getElementsByTagName('h5')[0];
+
+                if (match) {
+
+                    let textValue = match.textContent || match.innerHTML
+
+                    if (textValue.toUpperCase().indexOf(searchBox) > -1) {
+                        product[i].style.display = "";
+                    }
+                    else {
+                        product[i].style.display = "none";
+                    }
+
+                }
+            }
+        }
+    </script>
+    <script src="/eCommerce/js/shop.js"></script>
+
+</body>
+
+</html>
